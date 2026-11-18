@@ -5,7 +5,7 @@ function dailyLog232() {
     { period: "Evening", kwh: 22.8 },
     { period: "Night", kwh: 9.4 }
   ];
-
+0
   const total = energyUsage.reduce(
     (sum, item) => sum + item.kwh,
     0
